@@ -1,0 +1,48 @@
+1. lspci Command
+
+What it does:
+Shows info about PCI devices (network cards, graphics cards).
+Displays IDs, class, IRQ, memory locations, etc.
+Options:
+-v, -vv, -vvv: Increase detail.
+
+Uses:
+Identify hardware.
+Check driver compatibility.
+Troubleshoot hardware issues.
+
+2. dmidecode Command
+
+What it does:
+Reads system hardware info from the DMI table.
+
+Displays:
+Processor details (type, speed, cores)
+Memory info (size, type, speed)
+Motherboard info (manufacturer, model)
+BIOS details (version, date)
+Chassis info (type, version)
+System info (manufacturer, product name)
+Options:
+-t: Filter by type of info.
+-q: Show less detail.
+-s: Select specific info.
+
+Uses:
+Identify hardware specs.
+Troubleshoot hardware problems.
+Gather system info for inventory.
+
+3. Block vs. Character Devices
+
+Block Devices:
+Transfer data in chunks (blocks).
+Use a buffer (cache) for faster access.
+Can access any part of the data directly.
+Examples: Hard drives, SSDs.
+
+Character Devices:
+Transfer data as a continuous stream.
+No buffer cache.
+Usually accessed sequentially.
+Examples: Keyboard, mouse, network connections.
