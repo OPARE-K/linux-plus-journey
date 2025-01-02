@@ -1,0 +1,34 @@
+Here are some notes summarizing the information on RAID 0, RAID 1, and RAID 5:
+
+RAID Levels
+
+    RAID 0 (Striping):
+        Focus: Speed
+        How it works: Data split across multiple drives.
+        Pros: Fastest read/write speeds.
+        Cons: No fault tolerance (data loss if one drive fails).
+        Use Cases: Gaming, video editing.
+
+    RAID 1 (Mirroring):
+        Focus: Data protection
+        How it works: Identical data on two or more drives.
+        Pros: High fault tolerance (one drive failure).
+        Cons: Slower write speeds.
+        Use Cases: Servers, workstations, critical data.
+
+    RAID 5 (Striping with Parity):
+        Focus: Balance of speed and protection
+        How it works: Data striped, parity info distributed across drives.
+        Pros: Good read/write speeds, can handle one drive failure.
+        Cons: Slightly less space efficient than RAID 0.
+        Use Cases: Servers, workstations, NAS devices.
+
+Key Considerations:
+
+    RAID 0: Fastest, but no redundancy.
+    RAID 1: Best for data protection, but slower writes.
+    RAID 5: Good balance of speed and protection.
+
+
+
+
